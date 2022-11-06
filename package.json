@@ -1,0 +1,27 @@
+{
+  "name": "blog_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "NODE_ENV=test jest --detectOpenHandles --coverage",
+    "start": "NODE_ENV=production node server.js",
+    "dev": "NODE_ENV=development nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "jest": "^29.2.2",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.1"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.0"
+  }
+}
